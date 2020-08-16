@@ -1,0 +1,6 @@
+framework module Pods_Pajlot_Aero_Wx {
+  umbrella header "Pods-Pajlot Aero Wx-umbrella.h"
+
+  export *
+  module * { export * }
+}

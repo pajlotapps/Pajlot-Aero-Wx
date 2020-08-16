@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D6CBEF1F6A3B3100292001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6CBEE1F6A3B3100292001 /* AppDelegate.swift */; };
+		52D6CBF41F6A3B3100292001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D6CBF21F6A3B3100292001 /* Main.storyboard */; };
+		52D6CBF61F6A3B3100292001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D6CBF51F6A3B3100292001 /* Assets.xcassets */; };
+		52D6CBF91F6A3B3100292001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D6CBF71F6A3B3100292001 /* LaunchScreen.storyboard */; };
+		52D6CC051F6A3E4000292001 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6CC041F6A3E4000292001 /* NewsTableViewController.swift */; };
+		66078F6A2028F64900C0D132 /* MetarFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66078F692028F64900C0D132 /* MetarFetch.swift */; };
+		660CA98720323CBA008EAB29 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CA98620323CBA008EAB29 /* HomeVC.swift */; };
+		661F353F20168C6600881CDE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F353E20168C6600881CDE /* extensions.swift */; };
+		6628166820127772004A4EA5 /* MetarXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628166720127772004A4EA5 /* MetarXMLParser.swift */; };
+		6628166A20127BAF004A4EA5 /* MetarCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628166920127BAF004A4EA5 /* MetarCustomCell.swift */; };
+		6632E39920398C1100C9B64C /* TafFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6632E39820398C1100C9B64C /* TafFetch.swift */; };
+		6632E39D2039F89E00C9B64C /* reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6632E39C2039F89E00C9B64C /* reachability.swift */; };
+		665052442028DCFA00035B85 /* MetarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665052432028DCFA00035B85 /* MetarVC.swift */; };
+		665052462028E53C00035B85 /* MetarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665052452028E53C00035B85 /* MetarCell.swift */; };
+		66627BAD2012914A000B9830 /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66627BAC2012914A000B9830 /* variables.swift */; };
+		66627BAF2012978B000B9830 /* globalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66627BAE2012978B000B9830 /* globalFunctions.swift */; };
+		66627BB12012A764000B9830 /* tableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66627BB02012A764000B9830 /* tableViewHelper.swift */; };
+		66627BB32012B505000B9830 /* METAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66627BB22012B505000B9830 /* METAR.swift */; };
+		666F66072030A79D0076E302 /* Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F66062030A79D0076E302 /* Customization.swift */; };
+		666F66092030BA760076E302 /* Airfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F66082030BA760076E302 /* Airfield.swift */; };
+		66BBAF312015167A0039339D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66BBAF302015167A0039339D /* GoogleService-Info.plist */; };
+		66BBAF3320151D1A0039339D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BBAF3220151D1A0039339D /* GoogleMobileAds.framework */; };
+		66BBAF3520151DF80039339D /* metarContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBAF3420151DF80039339D /* metarContainerVC.swift */; };
+		66EE89D62039FDC900D35195 /* homeContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EE89D52039FDC900D35195 /* homeContainerVC.swift */; };
+		FF3DF5B8D84E124EB145CDBE /* Pods_Pajlot_Aero_Wx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B845CE53FD69C92FD97E215B /* Pods_Pajlot_Aero_Wx.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52D6CBEB1F6A3B3100292001 /* Pajlot Aero Wx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pajlot Aero Wx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D6CBEE1F6A3B3100292001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D6CBF31F6A3B3100292001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D6CBF51F6A3B3100292001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D6CBF81F6A3B3100292001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D6CBFA1F6A3B3100292001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D6CC041F6A3E4000292001 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		55E6988A9A1533264A7CCF9C /* Pods-Pajlot Aero Wx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pajlot Aero Wx.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pajlot Aero Wx/Pods-Pajlot Aero Wx.release.xcconfig"; sourceTree = "<group>"; };
+		66078F692028F64900C0D132 /* MetarFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetarFetch.swift; sourceTree = "<group>"; };
+		660CA98620323CBA008EAB29 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		661F353E20168C6600881CDE /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		6628166720127772004A4EA5 /* MetarXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetarXMLParser.swift; sourceTree = "<group>"; };
+		6628166920127BAF004A4EA5 /* MetarCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetarCustomCell.swift; sourceTree = "<group>"; };
+		6632E39820398C1100C9B64C /* TafFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TafFetch.swift; sourceTree = "<group>"; };
+		6632E39C2039F89E00C9B64C /* reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reachability.swift; sourceTree = "<group>"; };
+		665052432028DCFA00035B85 /* MetarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetarVC.swift; sourceTree = "<group>"; };
+		665052452028E53C00035B85 /* MetarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetarCell.swift; sourceTree = "<group>"; };
+		66627BAC2012914A000B9830 /* variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
+		66627BAE2012978B000B9830 /* globalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunctions.swift; sourceTree = "<group>"; };
+		66627BB02012A764000B9830 /* tableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewHelper.swift; sourceTree = "<group>"; };
+		66627BB22012B505000B9830 /* METAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = METAR.swift; sourceTree = "<group>"; };
+		666F66062030A79D0076E302 /* Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customization.swift; sourceTree = "<group>"; };
+		666F66082030BA760076E302 /* Airfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airfield.swift; sourceTree = "<group>"; };
+		66BBAF302015167A0039339D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66BBAF3220151D1A0039339D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		66BBAF3420151DF80039339D /* metarContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metarContainerVC.swift; sourceTree = "<group>"; };
+		66EE89D52039FDC900D35195 /* homeContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeContainerVC.swift; sourceTree = "<group>"; };
+		B31B4FC13228636B60AA4383 /* Pods-Pajlot Aero Wx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pajlot Aero Wx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pajlot Aero Wx/Pods-Pajlot Aero Wx.debug.xcconfig"; sourceTree = "<group>"; };
+		B845CE53FD69C92FD97E215B /* Pods_Pajlot_Aero_Wx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pajlot_Aero_Wx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D6CBE81F6A3B3100292001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BBAF3320151D1A0039339D /* GoogleMobileAds.framework in Frameworks */,
+				FF3DF5B8D84E124EB145CDBE /* Pods_Pajlot_Aero_Wx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD0C0A8EECCF8FA9B31F197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66BBAF3220151D1A0039339D /* GoogleMobileAds.framework */,
+				B845CE53FD69C92FD97E215B /* Pods_Pajlot_Aero_Wx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D6CBE21F6A3B3100292001 = {
+			isa = PBXGroup;
+			children = (
+				52D6CBED1F6A3B3100292001 /* Pajlot Aero Wx */,
+				52D6CBEC1F6A3B3100292001 /* Products */,
+				CD4D554C197008BA38EF4A54 /* Pods */,
+				2CD0C0A8EECCF8FA9B31F197 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52D6CBEC1F6A3B3100292001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D6CBEB1F6A3B3100292001 /* Pajlot Aero Wx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D6CBED1F6A3B3100292001 /* Pajlot Aero Wx */ = {
+			isa = PBXGroup;
+			children = (
+				6628166B20127F4A004A4EA5 /* Supporting Files */,
+				6628166720127772004A4EA5 /* MetarXMLParser.swift */,
+				6628166920127BAF004A4EA5 /* MetarCustomCell.swift */,
+				52D6CC041F6A3E4000292001 /* NewsTableViewController.swift */,
+				665052452028E53C00035B85 /* MetarCell.swift */,
+				665052432028DCFA00035B85 /* MetarVC.swift */,
+				66078F692028F64900C0D132 /* MetarFetch.swift */,
+				6632E39820398C1100C9B64C /* TafFetch.swift */,
+				52D6CBF21F6A3B3100292001 /* Main.storyboard */,
+				660CA98620323CBA008EAB29 /* HomeVC.swift */,
+				66BBAF3420151DF80039339D /* metarContainerVC.swift */,
+				66EE89D52039FDC900D35195 /* homeContainerVC.swift */,
+				666F66082030BA760076E302 /* Airfield.swift */,
+			);
+			path = "Pajlot Aero Wx";
+			sourceTree = "<group>";
+		};
+		6628166B20127F4A004A4EA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D6CBEE1F6A3B3100292001 /* AppDelegate.swift */,
+				52D6CBF51F6A3B3100292001 /* Assets.xcassets */,
+				52D6CBF71F6A3B3100292001 /* LaunchScreen.storyboard */,
+				52D6CBFA1F6A3B3100292001 /* Info.plist */,
+				66627BAC2012914A000B9830 /* variables.swift */,
+				66627BAE2012978B000B9830 /* globalFunctions.swift */,
+				66627BB02012A764000B9830 /* tableViewHelper.swift */,
+				66627BB22012B505000B9830 /* METAR.swift */,
+				66BBAF302015167A0039339D /* GoogleService-Info.plist */,
+				661F353E20168C6600881CDE /* extensions.swift */,
+				666F66062030A79D0076E302 /* Customization.swift */,
+				6632E39C2039F89E00C9B64C /* reachability.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4D554C197008BA38EF4A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B31B4FC13228636B60AA4383 /* Pods-Pajlot Aero Wx.debug.xcconfig */,
+				55E6988A9A1533264A7CCF9C /* Pods-Pajlot Aero Wx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D6CBEA1F6A3B3100292001 /* Pajlot Aero Wx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D6CBFD1F6A3B3100292001 /* Build configuration list for PBXNativeTarget "Pajlot Aero Wx" */;
+			buildPhases = (
+				15C5B2C43B1A5C3FEF48E613 /* [CP] Check Pods Manifest.lock */,
+				52D6CBE71F6A3B3100292001 /* Sources */,
+				52D6CBE81F6A3B3100292001 /* Frameworks */,
+				52D6CBE91F6A3B3100292001 /* Resources */,
+				BD2CA02369789B564697CD53 /* [CP] Embed Pods Frameworks */,
+				D9EF4178B5FD2E3E43D6BA0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pajlot Aero Wx";
+			productName = DeveloperNews;
+			productReference = 52D6CBEB1F6A3B3100292001 /* Pajlot Aero Wx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D6CBE31F6A3B3100292001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Duc Tran";
+				TargetAttributes = {
+					52D6CBEA1F6A3B3100292001 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6Y7V65FES8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52D6CBE61F6A3B3100292001 /* Build configuration list for PBXProject "Pajlot Aero Wx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D6CBE21F6A3B3100292001;
+			productRefGroup = 52D6CBEC1F6A3B3100292001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D6CBEA1F6A3B3100292001 /* Pajlot Aero Wx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D6CBE91F6A3B3100292001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D6CBF91F6A3B3100292001 /* LaunchScreen.storyboard in Resources */,
+				66BBAF312015167A0039339D /* GoogleService-Info.plist in Resources */,
+				52D6CBF61F6A3B3100292001 /* Assets.xcassets in Resources */,
+				52D6CBF41F6A3B3100292001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15C5B2C43B1A5C3FEF48E613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pajlot Aero Wx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2CA02369789B564697CD53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot Aero Wx/Pods-Pajlot Aero Wx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot Aero Wx/Pods-Pajlot Aero Wx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EF4178B5FD2E3E43D6BA0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pajlot Aero Wx/Pods-Pajlot Aero Wx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D6CBE71F6A3B3100292001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6628166A20127BAF004A4EA5 /* MetarCustomCell.swift in Sources */,
+				66BBAF3520151DF80039339D /* metarContainerVC.swift in Sources */,
+				6632E39D2039F89E00C9B64C /* reachability.swift in Sources */,
+				66EE89D62039FDC900D35195 /* homeContainerVC.swift in Sources */,
+				6628166820127772004A4EA5 /* MetarXMLParser.swift in Sources */,
+				66627BB12012A764000B9830 /* tableViewHelper.swift in Sources */,
+				6632E39920398C1100C9B64C /* TafFetch.swift in Sources */,
+				66627BAF2012978B000B9830 /* globalFunctions.swift in Sources */,
+				66078F6A2028F64900C0D132 /* MetarFetch.swift in Sources */,
+				661F353F20168C6600881CDE /* extensions.swift in Sources */,
+				666F66092030BA760076E302 /* Airfield.swift in Sources */,
+				52D6CC051F6A3E4000292001 /* NewsTableViewController.swift in Sources */,
+				660CA98720323CBA008EAB29 /* HomeVC.swift in Sources */,
+				66627BAD2012914A000B9830 /* variables.swift in Sources */,
+				52D6CBEF1F6A3B3100292001 /* AppDelegate.swift in Sources */,
+				665052442028DCFA00035B85 /* MetarVC.swift in Sources */,
+				666F66072030A79D0076E302 /* Customization.swift in Sources */,
+				66627BB32012B505000B9830 /* METAR.swift in Sources */,
+				665052462028E53C00035B85 /* MetarCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D6CBF21F6A3B3100292001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D6CBF31F6A3B3100292001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D6CBF71F6A3B3100292001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D6CBF81F6A3B3100292001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D6CBFB1F6A3B3100292001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D6CBFC1F6A3B3100292001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D6CBFE1F6A3B3100292001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31B4FC13228636B60AA4383 /* Pods-Pajlot Aero Wx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y7V65FES8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Pajlot Aero Wx/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.pajlot.pajlotAeroWx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		52D6CBFF1F6A3B3100292001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E6988A9A1533264A7CCF9C /* Pods-Pajlot Aero Wx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y7V65FES8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Pajlot Aero Wx/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.pajlot.pajlotAeroWx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D6CBE61F6A3B3100292001 /* Build configuration list for PBXProject "Pajlot Aero Wx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D6CBFB1F6A3B3100292001 /* Debug */,
+				52D6CBFC1F6A3B3100292001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D6CBFD1F6A3B3100292001 /* Build configuration list for PBXNativeTarget "Pajlot Aero Wx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D6CBFE1F6A3B3100292001 /* Debug */,
+				52D6CBFF1F6A3B3100292001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D6CBE31F6A3B3100292001 /* Project object */;
+}
