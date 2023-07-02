@@ -14,4 +14,4 @@ Pajlot Aero Wx - metar and taf reader for polish military airfields
 [preview1-url]: https://raw.githubusercontent.com/pajlotapps/Pajlot-Aero-Wx/master/Preview.png
 
 ### Deployment 👋 
-[![demo](https://img.shields.io/badge/live_demo-not_available-red)]
+![demo](https://img.shields.io/badge/live_demo-not_available-red)
